@@ -30,7 +30,7 @@
           class="navigator"
           v-for="goods in item.goodsItems.items"
           :key="goods.id"
-          :url="`/pages/goods/goods?id=${goods.id}`"
+          :url="`/pages/goods/index?id=${goods.id}`"
         >
           <image class="thumb" :src="goods.picture"></image>
           <view class="name ellipsis">{{ goods.name }}</view>
